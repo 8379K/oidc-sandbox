@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 
 	"github.com/8379K/oidc-sandbox/handler"
@@ -10,7 +9,6 @@ import (
 )
 
 func main() {
-	fmt.Println("")
 	e := echo.New()
 	e.Static("/", "dist")
 

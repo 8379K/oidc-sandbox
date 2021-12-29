@@ -7,9 +7,9 @@ import (
 )
 
 func GetAccess(c echo.Context) error {
-	return c.NoContext(http.StatusNoContent)
+	return c.NoContent(http.StatusNoContent)
 }
 
 func PostAccess(c echo.Context) error {
-	return c.NoContext(http.StatusNoContent)
+	return c.NoContent(http.StatusNoContent)
 }
