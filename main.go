@@ -14,7 +14,7 @@ func main() {
 
 	api := e.Group("/api")
 	{
-		apiAccess := api.Group("/acess")
+		apiAccess := api.Group("/access")
 		{
 			apiAccess.GET("", handler.GetAccess)
 			apiAccess.POST("", handler.PostAccess)
