@@ -25,7 +25,7 @@ func main() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "3000"
+		port = "50000"
 	}
 	e.Logger.Fatal(e.Start(":" + port))
 }
