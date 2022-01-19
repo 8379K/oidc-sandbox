@@ -1,1 +1,1 @@
-for study of OIDC for [traPortal](https://github.com/traPtitech/portal)
+for study of OIDC
